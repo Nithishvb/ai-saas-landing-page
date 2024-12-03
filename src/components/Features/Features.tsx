@@ -39,46 +39,50 @@ export function Features() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16 bg-[#13111c] flex justify-center p-14 rounded-md z-10">
+        <div className="flex justify-around gap-8 mb-16 bg-[#13111c] p-14 rounded-md z-10">
           {/* Feature 1 */}
-          <div className="rounded-xl p-8 text-center">
+          <div className="rounded-xl p-8 text-center w-[320px]">
             <div className="w-16 h-16 bg-[#2d2b52] rounded-lg flex items-center justify-center mx-auto mb-6">
               <Sparkles className="w-8 h-8 text-[#986fee]" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
               Cutting-Edge Innovation
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-300">
               Experience groundbreaking technological advancements that push the
               boundaries of {"what's"} possible, revolutionizing industries and
               transforming the way we live and work.
             </p>
           </div>
 
+          <div className="hidden md:block absolute left-[36%] top-[55%] -translate-y-1/2 w-px h-[22%] bg-gray-500"></div>
+
           {/* Feature 2 */}
-          <div className="rounded-xl p-8 text-center">
+          <div className="rounded-xl p-8 text-center w-[320px]">
             <div className="w-16 h-16 bg-[#2d2b52] rounded-lg flex items-center justify-center mx-auto mb-6">
               <Network className="w-8 h-8 text-[#986fee]" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
               Seamless Connectivity
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-300">
               Stay connected anytime, anywhere with our robust and reliable
               network infrastructure, ensuring uninterrupted communication and
               effortless access to the digital world.
             </p>
           </div>
 
+          <div className="hidden md:block absolute left-[63%] top-[55%] -translate-y-1/2 w-px h-[22%] bg-gray-500"></div>
+
           {/* Feature 3 */}
-          <div className="rounded-xl p-8 text-center">
+          <div className="rounded-xl p-8 text-center w-[320px]">
             <div className="w-16 h-16 bg-[#2d2b52] rounded-lg flex items-center justify-center mx-auto mb-6">
               <Layout className="w-8 h-8 text-[#986fee]" />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
               Intuitive User Interface
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-300">
               Enjoy a seamless and intuitive user experience with our sleek and
               user-friendly interface, designed to simplify complex tasks and
               enhance productivity.
