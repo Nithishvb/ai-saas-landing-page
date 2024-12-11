@@ -14,7 +14,10 @@ export function Security() {
           width={200}
           height={400}
           className="opacity-60 w-[389px]"
-          style={{ transform: `rotate(${90}deg)`, transition: 'transform 0.5s' }}
+          style={{
+            transform: `rotate(${90}deg)`,
+            transition: "transform 0.5s",
+          }}
         />
       </div>
 
@@ -52,7 +55,7 @@ export function Security() {
           </div>
         </div>
         <div className="flex justify-center">
-            <div className="border border-white w-3/5 mt-[80px] opacity-10"></div>
+          <div className="border border-white w-3/5 mt-[80px] opacity-10"></div>
         </div>
       </div>
     </section>

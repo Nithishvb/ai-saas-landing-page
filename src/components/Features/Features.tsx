@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, Network, Layout, ChevronRight } from "lucide-react";
 import Image from "next/image";
-import DotPattern from "@/assets/Group (1).png"
+import DotPattern from "@/assets/Group (1).png";
 
 export function Features() {
   return (
-    <section className="relative py-24 bg-[#1a1625] overflow-hidden px-[80px]">
+    <section className="relative py-24 bg-[#1a1625] overflow-hidden px-4 lg:px-[80px]">
       {/* Background Dots - Left */}
-      <div className="absolute left-[50px] bottom-[110px] pointer-events-none">
+      <div className="hidden lg:block absolute left-[50px] bottom-[110px] pointer-events-none">
         <Image
           src={DotPattern}
           alt=""
@@ -18,7 +18,7 @@ export function Features() {
       </div>
 
       {/* Background Dots - Right */}
-      <div className="absolute right-[60px] top-[30px] pointer-events-none">
+      <div className="hidden lg:block absolute right-[60px] top-[30px] pointer-events-none">
         <Image
           src={DotPattern}
           alt=""
@@ -30,7 +30,9 @@ export function Features() {
 
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-[#7286FF] font-medium mb-4 tracking-wide">FEATURES</p>
+          <p className="text-[#7286FF] font-medium mb-4 tracking-wide">
+            FEATURES
+          </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 mt-[28px]">
             Discover the Tools that Drive Success
           </h2>
@@ -39,9 +41,9 @@ export function Features() {
           </p>
         </div>
 
-        <div className="flex justify-around gap-8 mb-16 bg-[#13111c] p-14 rounded-md z-10">
+        <div className="flex justify-around flex-col lg:flex-row gap-8 mb-16 bg-[#13111c] lg:p-14 rounded-md z-10">
           {/* Feature 1 */}
-          <div className="rounded-xl p-8 text-center w-[320px]">
+          <div className="rounded-xl p-8 text-center lg:w-[320px]">
             <div className="w-16 h-16 bg-[#2d2b52] rounded-lg flex items-center justify-center mx-auto mb-6">
               <Sparkles className="w-8 h-8 text-[#986fee]" />
             </div>
@@ -55,10 +57,10 @@ export function Features() {
             </p>
           </div>
 
-          <div className="hidden md:block absolute left-[36%] top-[55%] -translate-y-1/2 w-px h-[22%] bg-gray-500"></div>
+          <div className="hidden lg:block absolute left-[36%] top-[55%] -translate-y-1/2 w-px h-[22%] bg-gray-500"></div>
 
           {/* Feature 2 */}
-          <div className="rounded-xl p-8 text-center w-[320px]">
+          <div className="rounded-xl p-8 text-center lg:w-[320px]">
             <div className="w-16 h-16 bg-[#2d2b52] rounded-lg flex items-center justify-center mx-auto mb-6">
               <Network className="w-8 h-8 text-[#986fee]" />
             </div>
@@ -72,10 +74,10 @@ export function Features() {
             </p>
           </div>
 
-          <div className="hidden md:block absolute left-[63%] top-[55%] -translate-y-1/2 w-px h-[22%] bg-gray-500"></div>
+          <div className="hidden lg:block absolute left-[63%] top-[55%] -translate-y-1/2 w-px h-[22%] bg-gray-500"></div>
 
           {/* Feature 3 */}
-          <div className="rounded-xl p-8 text-center w-[320px]">
+          <div className="rounded-xl p-8 text-center lg:w-[320px]">
             <div className="w-16 h-16 bg-[#2d2b52] rounded-lg flex items-center justify-center mx-auto mb-6">
               <Layout className="w-8 h-8 text-[#986fee]" />
             </div>

@@ -36,9 +36,9 @@ const testimonials = [
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-[#1a1625]">
+    <div className="lg:min-h-screen bg-[#1a1625]">
       {/* Navigation */}
-      <nav className="sticky mx-auto px-[90px] py-4 flex items-center justify-between h-[89px] backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <nav className="sticky mx-auto px-5 lg:px-[90px] py-4 flex items-center justify-between h-[89px] backdrop-filter backdrop-blur-lg bg-opacity-30">
         <div className="flex items-center">
           <Link href="/" className="text-white text-2xl font-bold">
             NeuroByte AI

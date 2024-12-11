@@ -4,7 +4,7 @@ import Inetgration from "@/assets/Image [big-images-on-homepage].png";
 
 export function Integrations() {
   return (
-    <section className="relative py-24 bg-[#1a1625] overflow-hidden px-[80px] flex justify-center">
+    <section className="relative py-24 bg-[#1a1625] overflow-hidden px-[30px] lg:px-[80px] flex justify-center">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Left Content */}
@@ -26,14 +26,20 @@ export function Integrations() {
           </div>
 
           {/* Right Grid of Integration Icons */}
-          <div className="h-[500px] hidden lg:block">
+          <div className="lg:h-[500px] w-[100%]">
             <div>
-              <Image src={Inetgration} alt="" height={200} width={200} className="w-[530px] h-[450px] mt-[20px]" />
+              <Image
+                src={Inetgration}
+                alt=""
+                height={200}
+                width={200}
+                className="w-[80%] lg:w-[530px] h-[270px] lg:h-[450px] mt-[20px]"
+              />
             </div>
           </div>
         </div>
         <div className="flex justify-center">
-            <div className="border border-white w-3/5 mt-[80px] opacity-10"></div>
+          <div className="border border-white w-3/5 mt-[80px] opacity-10"></div>
         </div>
       </div>
     </section>

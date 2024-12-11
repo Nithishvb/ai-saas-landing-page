@@ -1,7 +1,9 @@
 import { Features } from "@/components/Features/Features";
+import { Footer } from "@/components/Footer/Footer";
 import HomePage from "@/components/HomePage/HomePage";
 import { Integrations } from "@/components/Integration/Integration";
-import { Security } from "@/components/Security/Security";
+import { TeamSection } from "@/components/Teams/Teams";
+import { Testimonials } from "@/components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -9,7 +11,9 @@ export default function Home() {
       <HomePage />
       <Features />
       <Integrations />
-      <Security />
+      <TeamSection />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
